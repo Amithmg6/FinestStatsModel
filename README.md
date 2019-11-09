@@ -1,10 +1,9 @@
 # Finest Statistical Methods collection.
 
-### The repository contains the variety of statistical methods. 
-#### Real life problems related to classification, regression and more are solved with statistical approach. 
+### The repository contains the variety of statistical methods executed in R, Python and Julia. 
 
-The most basic linear regression to complex algorithms are coded in R, Python and Jupyter languages.
+Statistics is the most fundamental and very important way of dealing with data. Many statistical methods have been developed over the years to solve problems. 
 
-I try to keep uploading as many solved problems as i can !!!
+At the very beginning of my journey in data science. I learned various statistical methods that provide a structured approach to successfully perform an analysis. 
 
-kotresh How are you ?
+Just so you know I code the same method in JuPyteR(Julia, Python, R)

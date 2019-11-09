@@ -1,0 +1,13 @@
+# ---
+# title: "Deep learning Report"
+# author: "Amith MG"
+# date: "16 September 2018"
+# output: html_document
+# ---
+
+## devtools::install_github("rstudio/keras")
+
+# Load in the keras package
+library(keras)
+install_keras(method = "conda",conda = "C:/Anaconda3/Scripts/conda.exe",tensorflow = "C:/Anaconda3/Scripts/tenxorboard.exe")
+

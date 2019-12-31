@@ -50,7 +50,7 @@ summary(oj)
 
 table(oj$brand)
 
-aggregate(oj$brand,oj$)
+aggregate()
 
 ```
 

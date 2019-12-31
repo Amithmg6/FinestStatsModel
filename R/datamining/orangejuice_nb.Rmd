@@ -1,0 +1,111 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+## orange juice
+
+The weekly sales data of refrigerated 64-ounce orange juice
+containers from 83 stores in the Chicago area. There are many stores throughout the city, many time periods, and also three different brands (Dominicks, MinuteMaid,and Tropicana). 
+
+The data are arranged in rows, with each row giving the recorded
+store sales (in logarithms; logmove), as well as brand, price, presence/absence of feature advertisement, and the demographic characteristics of the store.
+There are 28,947 rows in this data set. The data is taken from P. Rossi’s bayesm package for R, and it has been used earlier in Montgomery (1987).
+
+### Library list
+
+```{r}
+
+library(lattice)
+
+
+
+```
+
+### The orange juice data
+
+```{r}
+
+oj <- read.csv("csv/oj.csv")
+
+oj$store <- as.factor(oj$store)
+
+```
+
+#### View the data
+
+```{r}
+
+head(oj)
+
+str(oj)
+
+summary(oj)
+
+```
+
+### Analysing the brand
+
+```{r}
+
+table(oj$brand)
+
+aggregate(oj$brand,oj$)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

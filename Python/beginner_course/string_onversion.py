@@ -11,6 +11,7 @@ sval = '123'
 type(sval)
 
 print(sval + 1)
+# expected error
 
 ival = int(sval)
 type(ival)

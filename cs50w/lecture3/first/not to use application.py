@@ -1,3 +1,10 @@
+""" how i have executed this code :
+1. go to anaconda prompt
+2. go to the location of the applications/app 
+3. run python -m flask run
+
+"""
+
 from flask import Flask
 """
 app is a new application, a flask application.
@@ -15,3 +22,7 @@ when the user goes to / then this is the function (index) will run
 @app.route("/")
 def index():
     return "Hello, world!"
+
+@app.route("/david")
+def david():
+    return "Hello David"

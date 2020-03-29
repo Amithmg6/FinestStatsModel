@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Mar 29 13:13:26 2020
-
+NOT ACCURATE
 confusion matrix functions
 """
 
